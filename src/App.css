@@ -1,0 +1,108 @@
+:root {
+  --tile-size: 40px;
+  --gap: 4px;
+  --bg: #1e1e1e;
+  --text: #f8f8f2;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carpet-grid,
+.bobbin-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  margin-bottom: 20px;
+}
+
+.carpet-grid {
+  flex-direction: column-reverse;
+}
+
+.carpet-row,
+.bobbin-row,
+.active-slots {
+  display: flex;
+  gap: var(--gap);
+}
+
+.carpet-tile,
+.bobbin-tile,
+.slot {
+  width: var(--tile-size);
+  height: var(--tile-size);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #555;
+  font-size: 14px;
+}
+
+.slot {
+  background: #333;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.used {
+  opacity: 0.3;
+}
+
+/* Color themes */
+.color--1 {
+  background: #3a3a3c;
+}
+.color-0 {
+  background: #ff3b30;
+}
+.color-1 {
+  background: #ff9500;
+}
+.color-2 {
+  background: #ffcc00;
+  color: black;
+}
+.color-3 {
+  background: #34c759;
+}
+.color-4 {
+  background: #5ac8fa;
+}
+.color-5 {
+  background: #007aff;
+}
+.color-6 {
+  background: #5856d6;
+}
+.color-7 {
+  background: #af52de;
+}
+.color-8 {
+  background: #8e8e93;
+}
+.color-9 {
+  background: #d1d1d6;
+  color: black;
+}
+.color-10 {
+  background: #000000;
+}
