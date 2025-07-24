@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import CarpetGrid from './components/CarpetGrid';
 import BobbinGrid from './components/BobbinGrid';
-import levelData from './levels/level_11d0e7e6-3745-4525-ac94-c54a8a98d881.json';
+import levelData from './levels/level_f44ebb0a-30a0-43ca-9260-4cb08dd89d33.json';
 
 import './App.css';
 
